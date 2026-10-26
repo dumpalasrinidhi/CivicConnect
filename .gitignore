@@ -1,0 +1,22 @@
+# Secrets and local config
+.env
+.env.*
+*.key
+secret.key
+
+# Local data (SQLite database, uploaded photos, model weights)
+backend/instance/
+backend/uploads/
+*.db
+*.sqlite3
+backend/model/
+*.pt
+
+# Python / tooling
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vercel/
+node_modules/

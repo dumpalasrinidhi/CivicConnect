@@ -1,0 +1,12 @@
+.env
+.env.*
+*.key
+*.db
+backend/instance/
+backend/uploads/
+backend/model/
+backend/test_*.py
+projectstage.ipynb
+.venv/
+venv/
+__pycache__/
