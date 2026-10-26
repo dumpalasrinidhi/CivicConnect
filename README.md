@@ -115,7 +115,7 @@ The complaint detail page now has two independent dropdowns for assignment: **Wo
 
 ## Public demo on Vercel (limitations)
 
-The repository is configured for Vercel (`vercel.json` + `api/index.py`, which loads `backend/app.py`).
+The repository is configured for Vercel (root `index.py` loads `backend/app.py`; Vercel detects Flask automatically).
 When `VERCEL=1`, the app behaves differently from a local run:
 
 - **No persistent storage.** The SQLite database and uploaded photos live in `/tmp`, which Vercel wipes on cold starts
